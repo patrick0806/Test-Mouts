@@ -94,6 +94,7 @@ The caching layer could be further improved with smarter invalidation strategies
 (e.g. auto-invalidate paginated lists on create/update/delete).
 
 ## Project Structure (Simplified)
+```bash
 src/
 ├── modules/
 │   └── user/           # Business logic
@@ -103,3 +104,4 @@ src/
 │   └── utils/          # Helpers (e.g., hash, auth)
 ├── config/             # Env, Redis, TypeORM, Swagger configs
 └── main.ts             # Application entrypoint
+```
