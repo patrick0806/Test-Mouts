@@ -1,11 +1,20 @@
-# The application for mouts tests
+# Fullstack User Management Application
 
-## How to run
+This repository contains the solution to a fullstack technical challenge using:
 
-In each folder api and fe you can see how to run the target application.
+- **Backend**: NestJS + PostgreSQL + Redis
+- **Frontend**: Next.js (App Router) + React Query + ShadCN UI
 
-### Obs
+---
 
-For the front we need a lot of optimizations to doing like don't do the same request 2 times, but the concept of the challenge is completed
-we working with cache in front and back. And we have a authorization and validation with jwt token. To more details see the readme of each application,
-and for any questions you can contact me.
+##  Project Structure
+├── api/ # NestJS backend (Users API)
+├── fe/ # Next.js frontend (User dashboard)
+└── README.md # You're here!
+
+## 🚀 How to Run the Project
+
+Each application (`api/` and `fe/`) is fully isolated and contains its own setup instructions in its respective `README.md`.
+
+The frontend intentionally repeats some requests (e.g., after login), which could be optimized with further enhancements (e.g., React Query deduplication, persisted auth state).
+If you have any questions or suggestions, feel free to reach out. Thanks for reviewing!
