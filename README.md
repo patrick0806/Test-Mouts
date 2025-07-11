@@ -8,10 +8,11 @@ This repository contains the solution to a fullstack technical challenge using:
 ---
 
 ##  Project Structure
+```bash
 ├── api/ # NestJS backend (Users API)
 ├── fe/ # Next.js frontend (User dashboard)
 └── README.md # You're here!
-
+```
 ## 🚀 How to Run the Project
 
 Each application (`api/` and `fe/`) is fully isolated and contains its own setup instructions in its respective `README.md`.
